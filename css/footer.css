@@ -1,0 +1,124 @@
+.footer {
+    background: #333;
+    padding: 100px 0
+}
+
+.footer-inner h4 {
+    font-size: 21px;
+    font-weight: 500;
+    font-family: "Yantramanav",sans-serif;
+    color: #fff;
+    margin-bottom: 30px
+}
+
+.footer-inner h4 a {
+    color: #fff;
+    font-size: 16px
+}
+
+.footer-inner li a {
+    font-size: 14px;
+    font-weight: 300;
+    font-family: "Lato",sans-serif;
+    color: #fff;
+    transition: .5s ease all
+}
+.footer{position: relative;}
+.social_link img {
+    max-width: 17px
+}
+
+.footer-inner.footer-initiative li {
+    display: inline-block;
+    vertical-align: top;
+    width: 49%
+}
+
+.footer-inner.footer-heading h4 {
+    margin-bottom: 17px
+}
+
+.footer-inner {
+    margin-bottom: 50px
+}
+
+.footer-inner li {
+    list-style: none;
+    margin-bottom: 10px
+}
+.footer-inner h4 a:hover,.footer-inner li a:hover,.footer-inner.footer-heading p a:hover {
+    color: #ffc400
+}
+.social_link li {
+    display: inline-block;
+    margin: 0 4px
+}
+.social_link {
+    border-top: 1px solid #707070;
+    padding-top: 25px;
+    margin-top: 30px
+}
+
+.social_link li:first-child {
+    margin-left: 0
+}
+.social_link li:last-child {
+    margin-right: 0
+}
+.footer-inner.footer-heading p,.footer-inner.footer-heading p a {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Lato",sans-serif;
+    margin-top: 30px;
+    line-height: 25px
+}
+.margin-0 {
+    margin: 0
+}
+.pagi_nation li:last-child a:after {
+    display: none
+}
+.series-end {
+    padding-left: 70px
+}
+
+/* responsive css start*/
+@media only screen and (max-width: 1199px) {
+.footer-inner h4 {
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+.footer-inner li a {
+    font-size: 13px;
+}
+.series-end {
+    padding-left: 30px;
+}
+}
+
+@media only screen and (max-width: 991px) {
+.footer-inner, .float-end {
+    float: left!important;
+}
+.footer {
+    padding: 50px 0;
+}
+}
+
+@media only screen and (max-width: 767px) {
+.footer-inner.footer-initiative li {
+    width: 100%;
+}
+.footer-inner {
+    margin-bottom: 15px;
+}
+.footer-inner li {
+    margin-bottom: 3px;
+}
+.footer {
+    padding: 50px 0 60px 0;
+}
+}
+
+

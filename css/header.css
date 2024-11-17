@@ -1,0 +1,545 @@
+header {
+    position: fixed;
+    transition: all .4s ease;
+    background: #fff;
+    top: 0;
+    z-index: 99;
+    border-top: 4px solid #0069a7
+}
+
+header.sticky .header {
+    padding: 10px 0
+}
+
+header.sticky .main_navbar li a {
+    font-size: 15px
+}
+
+header.sticky .header img {
+    max-width: 500px;
+    transition: .5s ease all
+}
+.main_navbar li a:before {
+    background: #ffc400;
+    height: 8px;
+    position: absolute;
+    left: 0;
+    width: 0;
+    bottom: -8px;
+    content: "";
+    transition: all .5s ease 0s
+}
+
+.main_navbar li a:hover::before,header,.main_navbar li a.dropbtn.active::before,.main_navbar li a.active::before{
+    width: 100%
+}
+.header {
+    padding: 25px 0
+}
+
+.header,.top_nav_main {
+    max-width: 80%;
+    margin: 0 auto;
+    transition: .4s ease
+}
+.alphbet-wise-search ul li a:hover,.main_navbar li a:hover,.you_may_topic a:hover h3,a:hover .heading_h3,.main_navbar .dropbtn.active,.main_navbar li a.active {
+    color: #0069a7
+}
+.top_nav .header {
+    padding: 15px 0
+}
+.main_navbar li a {
+    font-size: 15px;
+    color: #000;
+    text-transform: uppercase;
+    font-family: "Roboto",sans-serif;
+    margin-right: 0;
+    padding: 15px 0;
+    display: inline-block
+}
+.top_nav {
+    box-shadow: 0 3px 6px #00000029;
+    border-top: 1px solid #d8d8d8
+}
+.multi_btn a{
+    background: 0 0;
+    padding: 10px 11px;
+    font-size: 12px;
+    color: #0069a7;
+    font-weight: 400;
+    transition: .5s ease all;
+    margin-left: 2px;
+}
+
+.multi_btn a {    
+    color: #0069a7;    
+}
+.multi_btn .subscribe,.multi_btn a{
+    border: 1px solid #0069a7
+}
+.multi_btn a{
+    text-transform: uppercase;
+    font-family: "Roboto",sans-serif
+}
+.multi_btn .subscribe,.multi_btn a:hover {
+    background: #0069a7;
+    color: #0069a7
+}
+.main_navbar li{
+    position: relative;
+    display: inline-block;
+    margin-right: 26px;
+}
+.main_navbar li a {
+    font-weight: 400;
+    transition: .5s ease all
+}
+.main_navbar .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(255 255 255/95%);
+    left: 0;
+    padding: 45px;
+    top: 50px;
+    z-index: -1;
+    width: 55rem;
+    box-shadow: 0px 2px 10px 0px rgb(0 0 0 / 10%);
+}
+
+.submenu {
+    width: 33%;
+    display: inline-block;
+    vertical-align: top
+}
+
+.main_navbar .dropdown-content a,.main_navbar .dropdown:hover .dropdown-content {
+    display: block
+}
+
+.main_navbar .dropdown-content ul {
+    padding-right: 50px
+}
+
+.main_navbar .dropdown-content li a {
+    font-weight: 500;
+    font-size: 16px;
+    color: #565656;
+    font-family: "Lato",sans-serif;
+    width: 100%;
+    text-transform: capitalize;
+    position: relative;
+    border-bottom: 1px solid #e7e6e6;
+    padding: 0 0 5px;
+    margin: 0 0 5px;
+    transition: .5s ease all
+}
+
+.main_navbar .dropdown-content li a:hover {
+    color: #2b5371
+}
+
+.main_navbar .dropdown-content li:last-child a {
+    border: 0
+}
+
+.main_navbar .dropdown-content h5,.main_navbar .dropdown-content h5 a {
+    font-size: 21px!important;
+    font-family: "Roboto",sans-serif;
+    letter-spacing: 0;
+    color: #2b5371;
+    position: relative;
+    font-weight: 500;
+    width: max-content;
+    padding: 0;
+    text-transform: capitalize
+}
+
+.main_navbar .dropdown-content h5:after {
+    content: "";
+    background: #ffc400;
+    height: 1px;
+    width: 30px;
+    position: absolute;
+    top: 20px;
+    right: -45px
+}
+.sidenav,.toggle,.logo_list li:last-child::after,.main_navbar .dropdown-content a:before {
+    display: none
+}
+.search  {
+    position: relative;
+    z-index: 2
+}
+.search button {
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    background: 0 0;
+    border: 0
+}
+.search .form-control {
+    border-radius: 0;
+    padding: 7px 35px 7px 10px;
+    border-color: #d4d4d4
+}
+.search .form-control:focus {
+    border-color: #d4d4d4;
+    box-shadow: none
+}
+.main_navbar .dropdown-content.about {
+    left: -19rem
+}
+.sidenav1 {
+	  height: 100%;
+	  width: 0;
+	  position: fixed;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    background-color: #0667a1;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding: 0px 0px 0 0px;
+    display: inline-block;
+}
+.sidenav1 a {
+	padding: 8px 8px 8px 8px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+}
+.sidenav1 a:hover {
+  color: #f1f1f1;
+}
+
+.toggle1 {
+    cursor: pointer;
+    display: inline-block;
+}
+.main_navbar .sidenav1 li{
+	width: 100%;
+}
+.main_navbar .sidenav1 a {
+        font-size: 16px;
+    padding: 10px 15px;
+    margin: 0;
+	    color: #fff;
+    width: 100%;
+	    text-transform: uppercase;
+        line-height: 1.5;
+}
+.sidenav1 .accordion-button::after {
+  background-image: url('../images/down.svg');
+  width: 15px;
+    height: 15px;
+    position: absolute;
+    right: 10px;
+    background-size: cover;
+    top: 11px;
+}
+.main_navbar .sidenav1 .closebtn {
+    position: relative;
+    font-size: 36px;
+    margin-left: 0;
+    text-align: right;
+    display: inline-block;
+}
+.sidenav1 .accordion-button:not(.collapsed)::after {
+    transform: rotate(180deg);
+} 
+.sidenav1 .accordion-button {
+    background: transparent;
+}
+.sidenav1 .accordion-button:not(.collapsed) {
+    color: #fff;
+	box-shadow:none;
+}
+.sidenav1 .card-body {
+    color: #fff;
+    padding:0 0 0 20px;
+}
+.sidenav1 .accordion-button:focus{
+	box-shadow:none;
+	border:none;
+}
+.sidenav1 #collapseTwo a,.sidenav1 #collapseThree a{
+    font-size: 15px;
+    padding-top: 0px;
+}
+.main_navbar .sidenav1 li a:before{
+	display:none;
+}
+.main_navbar .sidenav1 li a:hover{
+    color: #fff;
+}
+.inner_header_nav .main_navbar .dropdown-content {
+    width: 17rem
+}
+
+.inner_header_nav .main_navbar .dropdown-content ul {
+    padding-right: 0;
+    margin: 0
+}
+.inner_header_nav .main_navbar ul {
+    display: inline-block;
+    margin-left: 15px
+}
+.logo_list li {
+    display: inline-block;
+    position: relative
+}
+.logo_list li:nth-child(2) {
+    margin: 0 20px;
+} 
+.logo_list li:after {
+    content: "";
+    background: #d4d4d4;
+    width: 1px;
+    height: 52px;
+    position: absolute;
+    right: -10px;
+    top: 20px;
+}
+.inner_header_nav .multi_btn,.inner_header_nav .search {
+    display: inline-block;
+    margin-left: 10px
+}
+.main_navbar .dropdown-content h5 a:hover {
+    color:#ffc400;
+}
+.submenu.submenu_progammes {
+    width: 45%;
+}
+
+
+/* responsive css start*/
+@media only screen and (max-width: 1700px) {
+.header,.top_nav_main {
+    max-width: 90%;
+}	
+}
+
+@media only screen and (max-width: 1499px) {
+.header,.top_nav_main {
+    max-width:100%;
+}
+}
+
+@media only screen and (max-width: 1199px) {
+.search .form-control {
+    padding: 5px 30px 5px 7px;
+}
+.main_navbar .dropdown-content ul{
+	padding-right: 0px;
+}
+.main_navbar .dropdown-content {
+    padding: 25px;
+}
+.submenu {
+    padding: 0 10px;
+}
+.main_navbar .dropdown-content h5 {
+    font-size: 17px;
+}
+.main_navbar .dropdown-content li a {
+    font-size: 14px;
+}
+.main_navbar .dropdown-content h5:after {
+    right: -35px;
+}
+header.sticky .header img {
+    max-width: 470px;
+}
+.main_navbar li a {
+    font-size: 15px;
+	margin-right: 15px;
+    padding: 13px 0;
+}
+header.sticky .main_navbar li a{
+    font-size: 13px;
+}
+.multi_btn button {
+    padding: 5px 20px;
+    font-size: 15px;
+    margin-left: 5px;
+}
+}
+
+@media only screen and (max-width: 991px) {
+    .author_name a {
+        font-size: 14px;}
+.order_1 img {
+    width: 175px;
+}
+.logo_list {
+    text-align: center;
+}
+.multi {
+    text-align: center!important;
+    display: inline-block;
+    margin-top: 25px;
+}
+.main_navbar li a,header.sticky .main_navbar li a {
+    font-size: 13px;
+    margin-right: 0px;
+}
+.multi_btn button {
+    padding: 5px 7px;
+    font-size: 13px;
+    margin-left: 5px;
+}
+}
+
+
+@media only screen and (max-width: 767px) {
+	.order_1 {
+    text-align: center;
+    order: 2;
+    margin-top: 0px;
+}
+.header {
+    padding: 10px 0;
+}
+.order_2 {
+    text-align: center!important;
+}
+
+.header img {
+    max-width: 150px;
+}
+header.sticky .header img{
+    max-width: 480px;
+}
+.sidenav {
+	  height: 100%;
+	  width: 0;
+	  position: fixed;
+	  z-index: 3;
+	  top: 0;
+	  left: 0;
+	  background-color: #0667a1;
+	  overflow-x: hidden;
+	  transition: 0.5s;
+	  padding-top: 60px;
+      display: inline-block;
+}
+.sidenav a {
+	padding: 8px 8px 8px 15px;
+    text-decoration: none;
+    font-size: 17px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+}
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  font-size: 36px;
+  margin-left: 0px;
+}
+.toggle {
+    font-size: 30px;
+    cursor: pointer;
+    display: block;
+}
+.sidenav .accordion-button::after {
+  background-image: url('../images/down.svg');
+  width: 15px;
+    height: 15px;
+    position: absolute;
+    right: 10px;
+    background-size: cover;
+    top: 11px;
+}
+.sidenav .accordion-button:not(.collapsed)::after {
+    transform: rotate(180deg);
+} 
+.sidenav .accordion-button {
+    background: transparent;
+}
+.sidenav .accordion-button:not(.collapsed) {
+    color: #fff;
+	box-shadow:none;
+}
+.sidenav .card-body {
+    color: #fff;
+    padding:0 0 0 10px;
+}
+.sidenav .accordion-button:focus{
+	box-shadow:none;
+	border:none;
+}
+.sidenav #collapseTwo a,.sidenav #collapseThree a,.sidenav #collapse2 a,.sidenav #collapse3 a{
+    font-size: 15px;
+    padding-top: 0px;
+}
+.search .form-control {
+    padding: 2px 35px 2px 7px;
+}
+.search button {
+    top: 3px;
+}
+.multi_btn {
+    padding: 0;
+}
+.multi {
+	display: none;
+}
+}
+.container_panel2 ul.orf-com-list{
+  
+    display: flex;
+    flex-direction: column;
+}
+.container_panel2 ul.orf-com-list li{
+    width:100%;
+    color: #000;
+    font-family:unset;
+    font-size: 16px;
+    border: 0;
+    margin: 0;
+    padding:6px 0px 6px 20px;
+    position: relative;
+    font-weight: 300; list-style: none;
+}
+.container_panel2 ul.orf-com-list li strong{
+    font-weight: 700;
+}
+.container_panel2 ul.orf-com-list li::before{
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 12px;
+    width: 10px;
+    height: 10px;
+    background: #0069A7;
+    border-radius: 50%;
+}
+
+.submenu.forummenu {
+    width: 100%;
+}
+
+.submenu.forummenu ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.submenu.forummenu ul li {
+    width: 45%;
+}
+
+.dropdown-content.event-menu {
+    width: 17rem;
+    padding: 28px;
+}
+
+.dropdown-content.event-menu .submenu {
+    width:100%;
+}

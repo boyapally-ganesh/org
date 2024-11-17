@@ -1,0 +1,20 @@
+.connect_list li {
+    display: inline-block;
+    text-align: center;
+    /* margin-right: 15px; */
+    margin-bottom: 15px;
+    background: #274f6d;
+    border-radius: 2px;
+    padding: 40px 20px 37px;
+    width: 100px;
+    border: 1px solid #3f6785;
+    display: inline-block;
+    transition: .5s ease all
+}
+
+.connect_list li span {
+    display: block;
+    font-size: 18px;
+    color: #fff;
+    margin-top: 10px
+}
